@@ -23,7 +23,7 @@ const SearchForm = () => {
         if (!searchTerm) return;
 
         try {
-            const response = await axios.get(`${process.env.API_BASE_URL}/api/search?q=${searchTerm}`);
+            const response = await axios.get(`${process.env.REACT_APP_API_BASE_URL}/api/search?q=${searchTerm}`);
             setSearchResults(response.data.results);
         } catch (error) {
             console.error('Error fetching results:', error);
