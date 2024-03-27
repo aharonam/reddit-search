@@ -1,5 +1,3 @@
-Absolutely! Here's a shorter, more concise version of the README.md:
-
 **README.md**
 
 # Reddit Search App
