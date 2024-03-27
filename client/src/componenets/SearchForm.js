@@ -17,6 +17,8 @@ const SearchForm = () => {
         }
     };
 
+    console.log(process.env.REACT_APP_API_BASE_URL);
+
     const handleSubmit = async (searchTerm) => {
         if (!searchTerm) return;
 
