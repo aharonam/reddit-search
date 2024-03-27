@@ -1,5 +1,3 @@
-Absolutely! Here's a shorter, more concise version of the README.md:
-
 **README.md**
 
 # Reddit Search App
@@ -18,7 +16,7 @@ A simple React application for searching Reddit posts, powered by a Node.js/Expr
 
 ## Setup
 
-1. **Clone the repo:** `git clone https://github.com/<your-username>/<repo-name>.git`
+1. **Clone the repo:** `git clone https://gitlab.com/Aharon.Amram/perion-reddit-search.git`
 2. **Install dependencies:** run `npm run install-all` from the ROOT.
 2. **Place a .env file in the client folder with:** REACT_APP_API_BASE_URL=http://localhost:5001
 3. **Run servers:** `npm start` from the ROOT folder
