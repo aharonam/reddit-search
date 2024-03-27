@@ -1,0 +1,28 @@
+.result-item {
+    padding: 15px;
+    border-bottom: 1px solid #eee;
+    display: flex;
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+.result-item p {
+    margin-bottom: 5px;
+    font-size: 14px;
+    line-height: 1.5;
+    padding: 15px;
+}
+
+
+.result-item a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    margin-right: 10px;
+    padding: 15px;
+}
+
+.result-item img {
+    max-width: 100px;
+    margin-right: 10px;
+}
